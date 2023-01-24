@@ -1,6 +1,9 @@
 # Diff-SVC
 Singing Voice Conversion via diffusion model
 
+## A fork from the diff-svc v0.1.1-alpha release.
+Oringinal repository:https://github.com/prophesier/diff-svc
+
 ## updates:
 >2022.11.23 修复了一个重大bug，曾导致可能将用于推理的原始gt音频转变采样率为22.05kHz,对于由此造成的影响我们表示十分抱歉，请务必检查自己的测试音频，并使用更新后的代码\
 2022.11.22 修复了很多bug，其中有几个影响推理效果重大的bug\
